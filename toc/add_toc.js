@@ -28,7 +28,7 @@ function add_toc_toggle() {
     dialog.setAttribute("id", "toc_dialog")
     const toc_div = document.createElement("div")
     toc_div.setAttribute("id", "toc")
-    toc_div.innerHTML = "<h1>Table of Contents</h2>"
+    toc_div.innerHTML = "<h2>Table of Contents</h2>"
     dialog.appendChild(toc_div)
 
     const show_toc_btn = document.createElement("button")
