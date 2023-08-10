@@ -1,7 +1,7 @@
 // ==UserScript==
-// @resource   styles_copy_button styles_copy_button.css
 // @grant      GM_getResourceText
 // @grant      GM_addStyle
+// @resource   styles_copy_button styles_copy_button.css
 // ==/UserScript==
 
 function wrap(elem, wrapper) {
@@ -10,7 +10,7 @@ function wrap(elem, wrapper) {
 }
 
 function attach_copy_btn() {
-    GM_addStyle(GM_getResourceText(styles_copy_button))
+    GM_addStyle(GM_getResourceText("styles_copy_button"))
 
     const codes = document.querySelectorAll("pre > code")
     codes.forEach((code) => {

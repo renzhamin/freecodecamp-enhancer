@@ -1,11 +1,11 @@
 // ==UserScript==
-// @resource   styles_toc styles_toc.css
 // @grant      GM_getResourceText
 // @grant      GM_addStyle
+// @resource   styles_toc styles_toc.css
 // ==/UserScript==
 
 function add_toc(toc_toggle_key) {
-    GM_addStyle(GM_getResourceText(styles_toc))
+    GM_addStyle(GM_getResourceText("styles_toc"))
 
     add_toc_toggle()
     document.getElementById("toc").innerHTML += generate_toc()

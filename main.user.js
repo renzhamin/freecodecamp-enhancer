@@ -6,7 +6,7 @@
 // @author       renzhamin
 // @match        https://www.freecodecamp.org/news/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=freecodecamp.org
-// @resource     styles styles.css
+// @require      attach_copy_btn.js
 // @run-at       document-idle
 // ==/UserScript==
 
