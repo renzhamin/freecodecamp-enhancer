@@ -1,0 +1,11 @@
+.copy-btn {
+    float: right;
+    margin-bottom: 5px;
+    border-radius: 1rem;
+    font-size: 0.8em;
+    width: 7rem;
+}
+
+.pre-wrapper {
+    width: 100%;
+}
