@@ -1,0 +1,55 @@
+#toc {
+    margin: 0;
+    padding: 0;
+    max-width: 65vw;
+}
+
+@media (width <= 800px) {
+    #toc {
+        max-width: 100vw;
+    }
+}
+
+#toc h2 {
+    padding: 20px 30px;
+}
+
+#toc ol {
+    counter-reset: item;
+}
+
+#toc li {
+    display: flex;
+    white-space: nowrap;
+    gap: 5px;
+}
+
+#toc li:before {
+    content: counters(item, ".") " ";
+    counter-increment: item;
+}
+
+#toc a {
+    text-decoration: none;
+    white-space: normal;
+    flex-grow: 1;
+}
+
+#toc li:hover {
+    background: rgba(82, 142, 227, 0.3);
+    cursor: pointer;
+}
+
+#show_toc_btn {
+    background: red;
+    position: fixed;
+    bottom: 30px;
+    right: 100px;
+    height: 30px;
+    width: 30px;
+}
+
+#toc_dialog {
+    padding: 0;
+    border: 0;
+}
