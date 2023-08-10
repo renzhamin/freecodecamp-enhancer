@@ -7,10 +7,10 @@
 // @icon            https://www.google.com/s2/favicons?sz=64&domain=freecodecamp.org
 // @grant           GM_getResourceText
 // @grant           GM_addStyle
-// @resource        styles_copy_button styles_copy_button.css
-// @require         attach_copy_button.js
-// @resource        styles_toc styles_toc.css
-// @require         add_toc.js
+// @resource        styles_copy_button copy_button/styles_copy_button.css
+// @require         copy_button/attach_copy_button.js
+// @resource        styles_toc toc/styles_toc.css
+// @require         toc/add_toc.js
 // @run-at          document-end
 // ==/UserScript==
 
