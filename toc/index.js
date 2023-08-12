@@ -9,7 +9,7 @@ function add_toc(toc_toggle_key) {
     GM_addStyle(GM_getResourceText("styles_toc"))
 
     add_toc_toggle()
-    document.getElementById("toc").innerHTML += generate_toc()
+    document.querySelector(".toc-content").innerHTML += generate_toc()
 
     if (toc_toggle_key) {
         document.addEventListener("keydown", (event) => {
@@ -22,19 +22,19 @@ function add_toc(toc_toggle_key) {
 
 function show_toc() {
     document.documentElement.style.overflow = "hidden"
-    document.getElementById("toc_dialog").showModal()
+    document.getElementById("toc-dialog").showModal()
 }
 
 function add_toc_toggle() {
     const dialog = document.createElement("dialog")
-    dialog.setAttribute("id", "toc_dialog")
+    dialog.setAttribute("id", "toc-dialog")
     const toc_div = document.createElement("div")
-    toc_div.setAttribute("id", "toc")
+    toc_div.classList.add("toc-content")
     toc_div.innerHTML = "<h2>Table of Contents</h2>"
     dialog.appendChild(toc_div)
 
     const show_toc_btn = document.createElement("button")
-    show_toc_btn.setAttribute("id", "show_toc_btn")
+    show_toc_btn.setAttribute("id", "toc-toggle")
     show_toc_btn.innerHTML =
         '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M.361 256C.361 397 114 511 255 511C397 511 511 397 511 256C511 116 397 2.05 255 2.05C114 2.05 .361 116 .361 256zM192 150V363H149V150H192zM234 150H362V193H234V150zM362 235V278H234V235H362zM234 320H362V363H234V320z"></path></svg>'
 
