@@ -1,0 +1,3 @@
+.declutter :not(:has(.post)):not(.post, .post *) {
+    display: none;
+}

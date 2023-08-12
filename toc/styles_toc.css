@@ -41,12 +41,20 @@
 }
 
 #show_toc_btn {
-    background: red;
+    background: transparent;
     position: fixed;
-    bottom: 30px;
-    right: 100px;
-    height: 30px;
-    width: 30px;
+    bottom: 5%;
+    right: 5%;
+    width: 5rem;
+}
+
+#show_toc_btn svg {
+    fill: rgb(82, 142, 227);
+    scale: 1;
+}
+
+#show_toc_btn svg:hover {
+    scale: 1.15;
 }
 
 #toc_dialog {
