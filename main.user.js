@@ -14,13 +14,15 @@
 // @run-at          document-end
 // ==/UserScript==
 
-/* globals attach_copy_btn, add_toc */
+/* globals attach_copy_btn, add_toc, declutter_toggle */
 
 const shortcut_toc_toggle = ";"
+const shortcut_declutter_toggle = "D"
 
 window.onload = setTimeout(main, 4000)
 
 function main() {
     attach_copy_btn()
     add_toc(shortcut_toc_toggle)
+    declutter_toggle(shortcut_declutter_toggle)
 }

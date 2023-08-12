@@ -1,7 +1,9 @@
+// ==UserScript==
 // @grant           GM_getResourceText
 // @grant           GM_addStyle
 // @resource        styles_copy_button copy_button/styles_copy_button.css
 // @require         copy_button/attach_copy_button.js
+// ==/UserScript==
 
 function wrap(elem, wrapper) {
     elem.parentNode.insertBefore(wrapper, elem)
