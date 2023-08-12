@@ -22,5 +22,5 @@ window.onload = setTimeout(main, 4000)
 
 function main() {
     attach_copy_btn()
-    add_toc()
+    add_toc(shortcut_toc_toggle)
 }
