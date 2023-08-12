@@ -1,11 +1,11 @@
 // ==UserScript==
 // @grant           GM_getResourceText
 // @grant           GM_addStyle
-// @resource        styles_declutter declutter/styles_declutter.css
-// @require         declutter/declutter.js
+// @resource        styles_declutter declutter/styles.css
+// @require         declutter/index.js
 // ==/UserScript==
 
-function declutter_toggle(key) {
+function add_declutter_toggle(key) {
     GM_addStyle(GM_getResourceText("styles_declutter"))
 
     document.addEventListener("keydown", (event) => {
