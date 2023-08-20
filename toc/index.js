@@ -47,6 +47,11 @@ function add_toc_toggle() {
         event.currentTarget.close()
     })
 
+    dialog.addEventListener("close", (event) => {
+        document.documentElement.style.overflow = "auto"
+        event.currentTarget.close()
+    })
+
     document.querySelector(".post-content").appendChild(dialog)
     document.querySelector(".post-content").appendChild(show_toc_btn)
 }
