@@ -10,9 +10,7 @@ Here is a demo showing the auto generated table of contents,
 
 [toc demo](https://github.com/renzhamin/freecodecamp-enhancer/assets/57265942/b78b84c2-fc68-44a1-9c4f-542260464491)
 
-
-
-## How to install 
+## How to install
 
 ### Install Tampermonkey
 
@@ -22,11 +20,9 @@ It's also available for firefox on the [firefox add-ons store](https://addons.mo
 
 Check out their [home page](https://www.tampermonkey.net) for other browsers.
 
-
 ### Install the userscript
 
-Click [this link](https://github.com/renzhamin/freecodecamp-enhancer/raw/testing/main.user.js) and hit install.
-
+Click [this link](https://github.com/renzhamin/freecodecamp-enhancer/raw/main/main.user.js) and hit install.
 
 ## How to contribute
 
