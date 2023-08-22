@@ -8,7 +8,9 @@ The enhancements are,
 
 Here is a demo showing the auto generated table of contents,
 
-[toc demo](https://github.com/renzhamin/freecodecamp-enhancer/assets/57265942/b78b84c2-fc68-44a1-9c4f-542260464491)
+https://github.com/renzhamin/freecodecamp-enhancer/assets/57265942/2bce52ae-5b3f-4547-816b-3ea54df87452
+
+
 
 ## How to install
 
